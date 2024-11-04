@@ -1,166 +1,124 @@
-[
+{
+  "computers": [
     {
-      "type": "Laptop",
-      "items": [
-        {
-          "id": 1,
-          "brand": "Dell",
-          "model": "XPS 13",
-          "price": 1200,
-          "specifications": {
-            "processor": "Intel Core i7",
-            "ram": "16GB",
-            "storage": "512GB SSD",
-            "display": "13.3-inch FHD",
-            "battery": "12 hours"
-          },
-          "img": "https://example.com/images/dell-xps-13.jpg",
-          "available": true
-        },
-        {
-          "id": 2,
-          "brand": "Apple",
-          "model": "MacBook Air M2",
-          "price": 999,
-          "specifications": {
-            "processor": "Apple M2",
-            "ram": "8GB",
-            "storage": "256GB SSD",
-            "display": "13.6-inch Retina",
-            "battery": "15 hours"
-          },
-          "img": "https://example.com/images/macbook-air-m2.jpg",
-          "available": true
-        },
-        {
-          "id": 3,
-          "brand": "Lenovo",
-          "model": "ThinkPad X1 Carbon",
-          "price": 1450,
-          "specifications": {
-            "processor": "Intel Core i7",
-            "ram": "16GB",
-            "storage": "512GB SSD",
-            "display": "14-inch FHD",
-            "battery": "18 hours"
-          },
-          "img": "https://example.com/images/lenovo-thinkpad-x1-carbon.jpg",
-          "available": true
-        },
-        {
-          "id": 4,
-          "brand": "HP",
-          "model": "Spectre x360",
-          "price": 1250,
-          "specifications": {
-            "processor": "Intel Core i5",
-            "ram": "8GB",
-            "storage": "256GB SSD",
-            "display": "13.3-inch 4K",
-            "battery": "14 hours"
-          },
-          "img": "https://example.com/images/hp-spectre-x360.jpg",
-          "available": false
-        }
-      ]
+      "id": 1,
+      "brand": "Apple",
+      "model": "MacBook Air M2",
+      "price": 999,
+      "specs": {
+        "cpu": "Apple M2",
+        "ram": "8GB",
+        "storage": "256GB SSD"
+      },
+      "img": "https://i.ibb.co.com/F0XHnpQ/Mac-Book-Air-M2.jpg"
     },
     {
-      "type": "Desktop",
-      "items": [
-        {
-          "id": 5,
-          "brand": "HP",
-          "model": "Pavilion",
-          "price": 800,
-          "specifications": {
-            "processor": "Intel Core i5",
-            "ram": "8GB",
-            "storage": "1TB HDD",
-            "graphics": "Integrated Intel UHD",
-            "monitor": "24-inch FHD"
-          },
-          "img": "https://example.com/images/hp-pavilion.jpg",
-          "available": false
-        },
-        {
-          "id": 6,
-          "brand": "iMac",
-          "model": "24-inch M1",
-          "price": 1299,
-          "specifications": {
-            "processor": "Apple M1",
-            "ram": "8GB",
-            "storage": "256GB SSD",
-            "display": "24-inch Retina 4.5K"
-          },
-          "img": "https://example.com/images/imac-24-m1.jpg",
-          "available": true
-        },
-        {
-          "id": 7,
-          "brand": "Acer",
-          "model": "Aspire TC",
-          "price": 600,
-          "specifications": {
-            "processor": "Intel Core i3",
-            "ram": "8GB",
-            "storage": "512GB SSD",
-            "graphics": "Integrated Intel UHD",
-            "monitor": "No monitor included"
-          },
-          "img": "https://example.com/images/acer-aspire-tc.jpg",
-          "available": true
-        }
-      ]
+      "id": 2,
+      "brand": "Dell",
+      "model": "XPS 13",
+      "price": 1200,
+      "specs": {
+        "cpu": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "512GB SSD"
+      },
+      "img": "https://i.ibb.co.com/jgYJCgx/XPS-13.jpg"
     },
     {
-      "type": "Tablet",
-      "items": [
-        {
-          "id": 8,
-          "brand": "Samsung",
-          "model": "Galaxy Tab S8",
-          "price": 650,
-          "specifications": {
-            "processor": "Snapdragon 8 Gen 1",
-            "ram": "8GB",
-            "storage": "128GB",
-            "display": "11-inch",
-            "battery": "14 hours"
-          },
-          "img": "https://example.com/images/galaxy-tab-s8.jpg",
-          "available": true
-        },
-        {
-          "id": 9,
-          "brand": "Apple",
-          "model": "iPad Pro",
-          "price": 1099,
-          "specifications": {
-            "processor": "Apple M1",
-            "ram": "8GB",
-            "storage": "128GB",
-            "display": "12.9-inch Liquid Retina XDR",
-            "battery": "10 hours"
-          },
-          "img": "https://example.com/images/ipad-pro.jpg",
-          "available": true
-        },
-        {
-          "id": 10,
-          "brand": "Microsoft",
-          "model": "Surface Pro 8",
-          "price": 900,
-          "specifications": {
-            "processor": "Intel Core i5",
-            "ram": "8GB",
-            "storage": "128GB SSD",
-            "display": "13-inch PixelSense",
-            "battery": "16 hours"
-          },
-          "img": "https://example.com/images/surface-pro-8.jpg",
-          "available": false
-        }
-      ]
+      "id": 3,
+      "brand": "HP",
+      "model": "Spectre x360",
+      "price": 1300,
+      "specs": {
+        "cpu": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "512GB SSD"
+      },
+      "img": "https://i.ibb.co.com/hdmYpTt/Spectre-x360.webp"
+    },
+    {
+      "id": 4,
+      "brand": "Lenovo",
+      "model": "ThinkPad X1 Carbon",
+      "price": 1400,
+      "specs": {
+        "cpu": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "1TB SSD"
+      },
+      "img": "https://i.ibb.co.com/w0Dg61N/Think-Pad-X1-Carbon.webp"
+    },
+    {
+      "id": 5,
+      "brand": "Acer",
+      "model": "Swift 3",
+      "price": 650,
+      "specs": {
+        "cpu": "AMD Ryzen 5",
+        "ram": "8GB",
+        "storage": "256GB SSD"
+      },
+      "img": "https://i.ibb.co.com/0cCq4bJ/Swift-3.jpg"
+    },
+    {
+      "id": 6,
+      "brand": "Microsoft",
+      "model": "Surface Laptop 4",
+      "price": 1000,
+      "specs": {
+        "cpu": "Intel Core i5",
+        "ram": "8GB",
+        "storage": "512GB SSD"
+      },
+      "img": "https://i.ibb.co.com/0mjj3TV/Surface-Laptop-4.jpg"
+    },
+    {
+      "id": 7,
+      "brand": "Asus",
+      "model": "ZenBook 14",
+      "price": 900,
+      "specs": {
+        "cpu": "Intel Core i5",
+        "ram": "8GB",
+        "storage": "512GB SSD"
+      },
+      "img": "https://i.ibb.co.com/Qjy13HF/Zen-Book-14.webp"
+    },
+    {
+      "id": 8,
+      "brand": "Razer",
+      "model": "Blade 15",
+      "price": 1600,
+      "specs": {
+        "cpu": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "1TB SSD"
+      },
+      "img": "https://i.ibb.co.com/3pjjdbC/Blade-15.jpg"
+    },
+    {
+      "id": 9,
+      "brand": "Samsung",
+      "model": "Galaxy Book Pro",
+      "price": 1100,
+      "specs": {
+        "cpu": "Intel Core i5",
+        "ram": "8GB",
+        "storage": "512GB SSD"
+      },
+      "img": "https://i.ibb.co.com/LCnBcvp/Galaxy-Book-Pro.jpg"
+    },
+    {
+      "id": 10,
+      "brand": "LG",
+      "model": "Gram 17",
+      "price": 1500,
+      "specs": {
+        "cpu": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "1TB SSD"
+      },
+      "img": "https://i.ibb.co.com/GPDxkqD/Gram-17.jpg"
     }
   ]
+}
