@@ -1,124 +1,154 @@
 {
   "computers": [
     {
-      "id": 1,
-      "brand": "Apple",
-      "model": "MacBook Air M2",
+      "product_id": 1,
+      "product_title": "Apple MacBook Air M2",
+      "product_image": "https://i.ibb.co/F0XHnpQ/Mac-Book-Air-M2.jpg",
+      "category": "Laptops",
       "price": 999,
-      "specs": {
+      "description": "Lightweight and powerful laptop with Apple's M2 chip, ideal for everyday tasks.",
+      "Specification": {
         "cpu": "Apple M2",
         "ram": "8GB",
         "storage": "256GB SSD"
       },
-      "img": "https://i.ibb.co.com/F0XHnpQ/Mac-Book-Air-M2.jpg"
+      "availability": true,
+      "rating": 4.9
     },
     {
-      "id": 2,
-      "brand": "Dell",
-      "model": "XPS 13",
+      "product_id": 2,
+      "product_title": "Dell XPS 13",
+      "product_image": "https://i.ibb.co/jgYJCgx/XPS-13.jpg",
+      "category": "Laptops",
       "price": 1200,
-      "specs": {
+      "description": "Premium ultraportable laptop featuring a stunning display and high performance.",
+      "Specification": {
         "cpu": "Intel Core i7",
         "ram": "16GB",
         "storage": "512GB SSD"
       },
-      "img": "https://i.ibb.co.com/jgYJCgx/XPS-13.jpg"
+      "availability": true,
+      "rating": 4.8
     },
     {
-      "id": 3,
-      "brand": "HP",
-      "model": "Spectre x360",
+      "product_id": 3,
+      "product_title": "HP Spectre x360",
+      "product_image": "https://i.ibb.co/hdmYpTt/Spectre-x360.webp",
+      "category": "Laptops",
       "price": 1300,
-      "specs": {
+      "description": "Versatile 2-in-1 laptop with a premium design and powerful specs.",
+      "Specification": {
         "cpu": "Intel Core i7",
         "ram": "16GB",
         "storage": "512GB SSD"
       },
-      "img": "https://i.ibb.co.com/hdmYpTt/Spectre-x360.webp"
+      "availability": true,
+      "rating": 4.7
     },
     {
-      "id": 4,
-      "brand": "Lenovo",
-      "model": "ThinkPad X1 Carbon",
+      "product_id": 4,
+      "product_title": "Lenovo ThinkPad X1 Carbon",
+      "product_image": "https://i.ibb.co/w0Dg61N/Think-Pad-X1-Carbon.webp",
+      "category": "Laptops",
       "price": 1400,
-      "specs": {
+      "description": "Business-class laptop known for its durability and performance.",
+      "Specification": {
         "cpu": "Intel Core i7",
         "ram": "16GB",
         "storage": "1TB SSD"
       },
-      "img": "https://i.ibb.co.com/w0Dg61N/Think-Pad-X1-Carbon.webp"
+      "availability": true,
+      "rating": 4.6
     },
     {
-      "id": 5,
-      "brand": "Acer",
-      "model": "Swift 3",
+      "product_id": 5,
+      "product_title": "Acer Swift 3",
+      "product_image": "https://i.ibb.co/0cCq4bJ/Swift-3.jpg",
+      "category": "Laptops",
       "price": 650,
-      "specs": {
+      "description": "Affordable laptop with good performance for everyday use.",
+      "Specification": {
         "cpu": "AMD Ryzen 5",
         "ram": "8GB",
         "storage": "256GB SSD"
       },
-      "img": "https://i.ibb.co.com/0cCq4bJ/Swift-3.jpg"
+      "availability": true,
+      "rating": 4.5
     },
     {
-      "id": 6,
-      "brand": "Microsoft",
-      "model": "Surface Laptop 4",
+      "product_id": 6,
+      "product_title": "Microsoft Surface Laptop 4",
+      "product_image": "https://i.ibb.co/0mjj3TV/Surface-Laptop-4.jpg",
+      "category": "Laptops",
       "price": 1000,
-      "specs": {
+      "description": "Stylish and powerful laptop with great battery life.",
+      "Specification": {
         "cpu": "Intel Core i5",
         "ram": "8GB",
         "storage": "512GB SSD"
       },
-      "img": "https://i.ibb.co.com/0mjj3TV/Surface-Laptop-4.jpg"
+      "availability": true,
+      "rating": 4.4
     },
     {
-      "id": 7,
-      "brand": "Asus",
-      "model": "ZenBook 14",
+      "product_id": 7,
+      "product_title": "Asus ZenBook 14",
+      "product_image": "https://i.ibb.co/Qjy13HF/Zen-Book-14.webp",
+      "category": "Laptops",
       "price": 900,
-      "specs": {
+      "description": "Compact laptop with a sleek design and strong performance.",
+      "Specification": {
         "cpu": "Intel Core i5",
         "ram": "8GB",
         "storage": "512GB SSD"
       },
-      "img": "https://i.ibb.co.com/Qjy13HF/Zen-Book-14.webp"
+      "availability": true,
+      "rating": 4.5
     },
     {
-      "id": 8,
-      "brand": "Razer",
-      "model": "Blade 15",
+      "product_id": 8,
+      "product_title": "Razer Blade 15",
+      "product_image": "https://i.ibb.co/3pjjdbC/Blade-15.jpg",
+      "category": "Gaming Laptops",
       "price": 1600,
-      "specs": {
+      "description": "High-performance gaming laptop with a stunning display and powerful GPU.",
+      "Specification": {
         "cpu": "Intel Core i7",
         "ram": "16GB",
         "storage": "1TB SSD"
       },
-      "img": "https://i.ibb.co.com/3pjjdbC/Blade-15.jpg"
+      "availability": true,
+      "rating": 4.7
     },
     {
-      "id": 9,
-      "brand": "Samsung",
-      "model": "Galaxy Book Pro",
+      "product_id": 9,
+      "product_title": "Samsung Galaxy Book Pro",
+      "product_image": "https://i.ibb.co/LCnBcvp/Galaxy-Book-Pro.jpg",
+      "category": "Laptops",
       "price": 1100,
-      "specs": {
+      "description": "Ultra-thin laptop with great performance and battery life.",
+      "Specification": {
         "cpu": "Intel Core i5",
         "ram": "8GB",
         "storage": "512GB SSD"
       },
-      "img": "https://i.ibb.co.com/LCnBcvp/Galaxy-Book-Pro.jpg"
+      "availability": true,
+      "rating": 4.6
     },
     {
-      "id": 10,
-      "brand": "LG",
-      "model": "Gram 17",
+      "product_id": 10,
+      "product_title": "LG Gram 17",
+      "product_image": "https://i.ibb.co/GPDxkqD/Gram-17.jpg",
+      "category": "Laptops",
       "price": 1500,
-      "specs": {
+      "description": "Lightweight laptop with a large display and powerful hardware.",
+      "Specification": {
         "cpu": "Intel Core i7",
         "ram": "16GB",
         "storage": "1TB SSD"
       },
-      "img": "https://i.ibb.co.com/GPDxkqD/Gram-17.jpg"
+      "availability": true,
+      "rating": 4.5
     }
   ]
 }
